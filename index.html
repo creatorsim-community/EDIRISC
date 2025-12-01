@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Integrated development environment for teaching and research on RISC-V processors</title>
+    <link   href="bootstrap.min.css" rel="stylesheet">
+    <script  src="bootstrap.bundle.min.js"></script>
+    <link   href="base.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header class="py-3 sticky-top bg-white w-100">
+      <div class="container mx-auto row align-items-center">
+        <div class="col-md-2 text-center text-md-start pr-2">
+          <img src="logo/logo-creator.svg" alt="Logo" class="img-fluid">
+        </div>
+        <div class="col-md-8 text-center text-md-center">
+          <h1 class="text-primary">Integrated development environment for teaching and research on RISC-V processors</h1> 
+        </div>
+        <div class="col-md-2 text-center text-md-start px-0">
+          <img src="logo/logo-ngeu.png" alt="Logo" class="img-fluid">
+          <img src="logo/logo-aei.png" alt="Logo" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row mt-3 bg-black ">
+        <div class="col">
+	     <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-2 border-top">
+	     <div class="container-fluid">
+		  <div class="collapse navbar-collapse justify-content-center">
+		    <ul class="navbar-nav">
+			<li class="nav-item">
+			    <a class="nav-link text-white dropdown-closer" href="#sponsors">Sponsors</a>
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link text-white dropdown-closer" href="#objetivos">Objectives</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle text-white" href="#paquetestrabajo" 
+           role="button" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">Work packages</a>
+			  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="paquetestrabajo">
+                             <li><a class="dropdown-item" href="#wp1">WP 1. New environment</a></li>
+                             <li><a class="dropdown-item" href="#wp2">WP 2. Training materials</a></li>
+                             <li><a class="dropdown-item" href="#wp3">WP 3. Coordination and planning</a></li>
+			  </ul>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle text-white" href="#entregables" id="entregables" 
+           role="button" data-bs-toggle="dropdown" data-bs-hover="dropdown" aria-expanded="false">Deliverables</a>
+			  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="entregables">
+                             <li><a class="dropdown-item" href="#d11">D 1.1</a></li>
+                             <li><a class="dropdown-item" href="#d12">D 1.2</a></li>
+                             <li><a class="dropdown-item" href="#d21">D 2.1</a></li>
+                             <li><a class="dropdown-item" href="#d22">D 2.2</a></li>
+                             <li><a class="dropdown-item" href="#d31">D 3.1</a></li>
+                             <li><a class="dropdown-item" href="#d32">D 3.2</a></li>
+                             <li><a class="dropdown-item" href="#d33">D 3.3</a></li>
+			  </ul>
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link text-white dropdown-closer" href="#codigo">CREATOR release</a>
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link text-white dropdown-closer" href="#diseminacion">Dissemination</a>
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link text-white dropdown-closer" href="#contact">Contact</a>
+			</li>
+		    </ul>
+		  </div>
+	     </div>
+	     </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Main -->
+    <main class="container mx-auto" data-bs-spy="scroll" data-bs-target="#navbar-example2"  data-bs-smooth-scroll="true"  tabindex="0">
+
+      <h3 id="sponsors">Sponsors</h3>
+      <p>
+	<img src="miccin-300x96.png" style="max-height: 12vh; max-width: auto;" class="ms-4">
+      </p>
+
+      </br><!-- br -->
+
+      <h3 id="objetivos">Objectives</h3>
+      <ul>
+        <p>
+        The main goal of this project is to improve and evolve the CREATOR tool, used as the basis for this project, to obtain a new integrated development environment (IDE) that will be used as a tool for learning the RISC-V instruction set and for researching new RISC-V instructions and extensions.
+        The new platform will include a more attractive and robust visual interface, a new more efficient compiler, support for 64 bits, vector instructions, and hardware support for different microcontrollers and RISC-V boards.
+        The project will also develop different use cases and materials that can be easily used in universities, vocational training centers, and companies.
+        To motivate and bring the use of RISC-V closer to students at universities and vocational training centers, the new environment will incorporate the possibility of working with Arduino-based RISC-V microcontrollers.
+
+        Many students already have experience working with Arduino. The idea is to provide an environment for students to develop projects for Arduino directly in RISC-V, thus making learning this assembler more attractive.
+        The new environment will contribute, on the one hand, to the training process for new professionals that the processor industry will demand, helping companies and training centers to make the transition to RISC-V.
+        Moreover, it will also contribute to improving research activities, as it will enable the rapid prototyping of new extensions to the RISC-V instruction set and allow the impact of new RISC-V instructions to be analyzed and understood.
+        <p></p>
+
+        To achieve the overall goal, the project will pursue the following specific objectives:
+        <ul>
+          <li>
+            <b>O1.</b> Obtain a new integrated development environment for learning and research on RISC-V.
+          </li>
+          <li>
+            <b>O2.</b> Develop use cases and training materials on RISC-V processors.
+          </li>
+          <li>
+            <b>O3.</b> Plan and coordinate project activities and promote the dissemination of results to increase their impact.
+          </li>
+        </ul>
+      </p>
+      </ul>
+
+      </br><!-- br -->
+
+      <h3 id="paquetestrabajo">Work packages</h3>
+      <ul>
+          <a id="wp1"></a>
+          <h5>WP1. New integrated development environment for learning and research on RISC-V</h5>
+          <p>
+          O1. This work package will involve developing the new environment with a more attractive and robust visual interface, a new and more efficient compiler, support for 64 bits, vector instructions, and hardware support for RISC-V microcontrollers.
+	  The new IDE will also integrate a tool developed by the research group that allows users to understand the basic operation of a RISC-V processor at the control signal level.
+          </p>
+
+          <a id="wp2"></a>
+          <h5>WP2. Development of use cases and training materials on RISC-V processors</h5>
+          <p>
+          O2. To develop use cases and training materials on RISC-V processors
+          </p>
+
+          <a id="wp3"></a>
+          <h5>WP3. Coordination and scheduling of activities</h5>
+          <p>
+          O3. To plan and coordinate project activities and promote the dissemination of results to increase their impact.
+          </p>
+      </ul>
+
+      </br><!-- br -->
+
+      <h3 id="entregables">Deliverables</h3>
+      <ul>
+          <a id="wp1"></a>
+          <h5>WP1. New integrated development environment for learning and research on RISC-V</h5>
+          <ul>
+            <a id="d11"></a>
+	    <li><a href="deliverables/D_1_1.pdf">D1.1. Report on the design of the new instruction definition model and compiler</a></li>
+            <a id="d12"></a>
+	    <li><a href="deliverables/D_1_2.pdf">D1.2. New Development Environment Design Report</a></li>
+          </ul>
+          <br/>
+
+          <a id="wp2"></a>
+          <h5>WP2. Development of use cases and training materials on RISC-V processors</h5>
+          <ul>
+            <a id="d21"></a>
+            <li><a href="deliverables/D_2_1.pdf">D2.1. User manual, use cases, and materials for microcontrollers and RISC-V boards</a></li>
+            <a id="d22"></a>
+            <li><a href="deliverables/D_2_2.pdf">D2.2. User manual, use cases, and materials for microcontrollers and RISC-V boards</a></li>
+          </ul>
+          <br/>
+
+          <a id="wp3"></a>
+          <h5>WP3. Coordination and scheduling of activities</h5>
+          <ul>
+            <a id="d31"></a>
+            <li><a href="deliverables/D_3_1.pdf">D3.1. Overall project scheduling</a></li>
+            <a id="d32"></a>
+            <li><a href="deliverables/D_3_2.pdf">D3.2. Interim project report</a></li>
+            <a id="d32"></a>
+            <li><a href="deliverables/D_3_3.pdf">D3.3. Final project report and conclusions</a></li>
+          </ul>
+          <br/>
+      </ul>
+
+      </br><!-- br -->
+
+      <h3 id="codigo">The source code of CREATOR</h3>
+      <p>
+      <ul>
+        The source code can be reached from the GitHub repo: <br>
+        <a href="https://github.com/creatorsim-community/creator">https://github.com/creatorsim-community/creator</a>
+      </ul>
+      </p>
+
+      </br><!-- br -->
+
+      <h3 id="diseminacion">Publications</h3>
+      <p>
+      <ul>
+      <li>2025</li>
+          <ul>
+          <li><a href="https://doi.org/10.5281/zenodo.15773218"><b>Simulador web para RISC-V basado en la especificación SAIL</b></a>,<br>
+          Authors: J. C. Cano Resa, F. Garcia Carballeira, D. Camarmas Alonsoy A. Calderon Mateos, <br>
+          Conference: Jornadas SARTECO
+          </li>
+          <li><a href="https://doi.org/10.5281/zenodo.15773284"><b>Extensión del simulador CREATOR para integrar funcionalidades de Arduino: caso de estudio con el microcontrolador ESP32</b></a>,<br>
+          Authors: E. Utrilla Arroyo, D. Camarmas Alonso, F. Garcia Carballeiray A. Calderon Mateos, <br>
+          Conference: Jornadas SARTECO
+          </li>
+          </ul>
+      </ul>
+      </p>
+
+      </br><!-- br -->
+
+      <h3 id="contact">Contact</h3>
+      <p>
+      <ul>
+      Welcome to our contact page for the CREATOR Project! <br>
+      We appreciate your interest in our work and look forward to hearing from you.<br>
+      <br/>
+      Whether you have a question, a suggestion, or just want to point something out, we invite you to get in touch with us. <br>
+      You can reach us via email at creator.arcos.inf.uc3m.es@gmail.com, 
+      and we will do our best to respond to your message as quickly as possible. <br>
+      <br/>
+      Thank you again for your interest in our CREATOR Project !<br>
+      </ul>
+      </p>
+
+      </br><!-- br -->
+
+      <p></p>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="fixed-bottom">
+      <div class="container">
+        <p class="mb-0">The CREATOR Project (2025-2026)</p>
+      </div>
+    </footer>
+
+  </body>
+
+  <script>
+  let dropdowns = document.querySelectorAll('.dropdown-toggle')
+  dropdowns.forEach((dd)=>{
+    dd.addEventListener('mouseover', function (e) {
+        let alldd = document.querySelectorAll('.dropdown-menu')
+        alldd.forEach((ddi)=>{
+            ddi.classList.remove('show');
+        });
+        this.nextElementSibling.classList.add('show')
+    });
+  })
+
+  let ddc = document.querySelectorAll('.dropdown-closer')
+  ddc.forEach((dd)=>{
+    dd.addEventListener('mouseover', function (e) {
+        let alldd = document.querySelectorAll('.dropdown-menu')
+        alldd.forEach((ddi)=>{
+            ddi.classList.remove('show');
+        });
+    });
+  })
+  </script>
+
+</html>
+
